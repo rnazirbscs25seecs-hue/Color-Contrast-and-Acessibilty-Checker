@@ -1,27 +1,38 @@
 # Color-Contrast-and-Acessibilty-Checker
 A Java Swing desktop application that evaluates color pairs against WCAG 2.1 accessibility standards, simulates color vision deficiencies, and generates accessible palette suggestions  all with live visual feedback
+
+
+
+
 <img width="1278" height="503" alt="image" src="https://github.com/user-attachments/assets/3c5c8d8a-8d01-430b-94be-96cc65f3fe36" />
+
 <img width="507" height="462" alt="image" src="https://github.com/user-attachments/assets/d12bb232-5b63-4072-b4fd-5057f4aecadf" />
+
 <img width="1425" height="421" alt="image" src="https://github.com/user-attachments/assets/82d8a131-89a9-4541-be4a-2ffa82768312" />
+
 <img width="1914" height="453" alt="image" src="https://github.com/user-attachments/assets/a11b6a93-59f9-4858-a762-064e8e512ca7" />
+
 <img width="960" height="455" alt="image" src="https://github.com/user-attachments/assets/73978f91-a363-48ed-a058-1c1c42f1971b" />
+
 <img width="930" height="433" alt="image" src="https://github.com/user-attachments/assets/7b18f274-97fb-4416-bb49-a1d749fbbd64" />
+
 <img width="1664" height="457" alt="image" src="https://github.com/user-attachments/assets/4397ea36-d52f-421a-8708-2eb746d2ef46" />
+
 <img width="1907" height="984" alt="image" src="https://github.com/user-attachments/assets/19d84da3-d00a-44e0-aa54-dfde09e3798f" />
 
 
 
 Features
-WCAG 2.1 contrast engine — computes relative luminance and contrast ratio using the ITU-R BT.709 formula; evaluates AA / AAA for normal text, large text, and UI components
-Multi-format color input — HEX, RGB, HSL, HSB spinners fully bidirectionally synced; alpha transparency slider for foreground
-Live preview — renders sample text at all WCAG-relevant sizes (14 px normal, 24 px large, 18 px bold) plus button and input field mockups
-Color blindness simulation — 7 modes using the Viénot 1999 / Brettel 1997 LMS pipeline: Protanopia, Deuteranopia, Tritanopia, Achromatopsia, Protanomaly, Deuteranomaly, Normal; severity slider for anomalous trichromacy
+1.WCAG 2.1 contrast engine — computes relative luminance and contrast ratio using the ITU-R BT.709 formula; evaluates AA / AAA for normal text, large text, and UI components
+2.Multi-format color input — HEX, RGB, HSL, HSB spinners fully bidirectionally synced; alpha transparency slider for foreground
+3.Live preview — renders sample text at all WCAG-relevant sizes (14 px normal, 24 px large, 18 px bold) plus button and input field mockups
+4.Color blindness simulation — 7 modes using the Viénot 1999 / Brettel 1997 LMS pipeline: Protanopia, Deuteranopia, Tritanopia, Achromatopsia, Protanomaly, Deuteranomaly, Normal; severity slider for anomalous trichromacy
 Analysis tab — CIE 1931 xy chromaticity diagram with sRGB gamut triangle + FG/BG dots; WCAG compliance bar chart across all CVD modes
-Palette generator — nearest AA/AAA auto-fix, 11-step lightness shade strip, 6-color harmony explorer (complementary, triadic, analogous)
-History — timestamped session log; double-click any row to restore
-Export — PNG report card (600 × 340 px) and CSV with all CVD simulation data
-Keyboard shortcuts — Ctrl+C copy ratio · Ctrl+S PNG · Ctrl+E CSV · Ctrl+Shift+S swap · Ctrl+H clear history
-Light / dark theme toggle — Nimbus (built-in) with cross-platform Metal dark fallback
+5.Palette generator — nearest AA/AAA auto-fix, 11-step lightness shade strip, 6-color harmony explorer (complementary, triadic, analogous)
+6.History — timestamped session log; double-click any row to restore
+7.Export — PNG report card (600 × 340 px) and CSV with all CVD simulation data
+8.Keyboard shortcuts — Ctrl+C copy ratio · Ctrl+S PNG · Ctrl+E CSV · Ctrl+Shift+S swap · Ctrl+H clear history
+9.Light / dark theme toggle — Nimbus (built-in) with cross-platform Metal dark fallback
 
 
 Project Structure
