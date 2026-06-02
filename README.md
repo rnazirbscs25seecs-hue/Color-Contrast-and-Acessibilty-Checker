@@ -70,13 +70,12 @@ WCAG 2.1 Thresholds
 CriterionAAAAANormal text (< 18 pt / 14 pt bold)≥ 4.5 : 1≥ 7.0 : 1Large text (≥ 18 pt / 14 pt bold)≥ 3.0 : 1≥ 4.5 : 1UI components & graphics≥ 3.0 : 1—
 
 Color Blindness Modes
-ModeCone       affected                  Population
-Protanopia     L-cone absent (red-blind)  ~1 % males
-Deuteranopia   M-cone absent (green-blind)  ~1 % males
-Tritanopia     S-cone absent (blue-blind)  ~0.001 %
-Achromatopsia  All cones absent           Extremely rare
-Protanomaly    L-cone weakened            ~1 % males
-Deuteranomaly   M-cone weakened           ~5 % males
+1.Protanopia     L-cone absent (red-blind)  ~1 % males
+2.Deuteranopia   M-cone absent (green-blind)  ~1 % males
+3.Tritanopia     S-cone absent (blue-blind)  ~0.001 %
+4.Achromatopsia  All cones absent           Extremely rare
+5.Protanomaly    L-cone weakened            ~1 % males
+6.Deuteranomaly   M-cone weakened           ~5 % males
 Simulation uses the Viénot 1999 LMS matrices for protanopia and deuteranopia, and the Brettel 1997 approach for tritanopia. Severity slider linearly interpolates between normal and full dichromacy.
 Architecture
 The project follows a strict MVC separation:
