@@ -36,38 +36,14 @@ Analysis tab — CIE 1931 xy chromaticity diagram with sRGB gamut triangle + FG/
 
 
 Project Structure
-color-contrast-checker/
-├── pom.xml
-└── src/main/java/com/colorchecker/
-    ├── Main.java
-    ├── model/
-    │   ├── AppColor.java          # Immutable color with HEX/RGB/HSL/HSB/XYZ conversions
-    │   ├── ContrastResult.java    # WCAG evaluation result value object
-    │   └── BlindnessType.java     # Enum of 7 CVD simulation modes
-    ├── engine/
-    │   ├── ContrastEngine.java    # WCAG luminance + ratio (singleton)
-    │   ├── BlindnessSimulator.java# LMS matrix pipeline (singleton)
-    │   └── PaletteGenerator.java  # Auto-fix, shades, harmony (singleton)
-    ├── ui/
-    │   ├── MainFrame.java         # Root window + reactive update chain
-    │   ├── components/
-    │   │   ├── RatioGauge.java    # Custom arc gauge (log scale)
-    │   │   ├── WcagBadge.java     # Pass/fail pill badge
-    │   │   └── ColorSwatch.java   # Clickable color preview → JColorChooser
-    │   └── panels/
-    │       ├── ColorInputPanel.java
-    │       ├── ResultPanel.java
-    │       ├── PreviewPanel.java
-    │       ├── BlindnessPanel.java
-    │       ├── AnalysisPanel.java
-    │       ├── ChromaticityPanel.java
-    │       ├── ComparisonChartPanel.java
-    │       ├── PalettePanel.java
-    │       └── HistoryPanel.java
-    └── util/
-        └── ExportUtil.java        # PNG + CSV export
+
+<img width="1102" height="804" alt="image" src="https://github.com/user-attachments/assets/8054351a-c573-4628-831d-e04c8c8e3a1b" />
+
 WCAG 2.1 Thresholds
-CriterionAAAAANormal text (< 18 pt / 14 pt bold)≥ 4.5 : 1≥ 7.0 : 1Large text (≥ 18 pt / 14 pt bold)≥ 3.0 : 1≥ 4.5 : 1UI components & graphics≥ 3.0 : 1—
+Criterion
+AAAA Normal text (< 18 pt / 14 pt bold)≥ 4.5 : 1≥ 7.0 : 1
+Large text (≥ 18 pt / 14 pt bold)≥ 3.0 : 1≥ 4.5 : 1
+UI components & graphics≥ 3.0 : 1—
 
 Color Blindness Modes
 1.Protanopia     L-cone absent (red-blind)  ~1 % males
